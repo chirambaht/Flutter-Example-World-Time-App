@@ -15,13 +15,7 @@ class Home extends StatelessWidget {
         centerTitle: true,
       ),
       body: Center(
-        child: Text(
-          'Hello Ninja',
-          style: TextStyle(
-              fontSize: 23.0,
-              fontWeight: FontWeight.bold,
-              fontFamily: 'Syncopate'),
-        ),
+        child: Image.asset('assets/images/sq3.jpg'),
       ),
       floatingActionButton: FloatingActionButton(
         child: Text('Click'),
