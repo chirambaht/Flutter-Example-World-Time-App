@@ -15,8 +15,10 @@ class Home extends StatelessWidget {
         centerTitle: true,
       ),
       body: Center(
-        child: Image.asset('assets/images/sq3.jpg'),
-      ),
+          child: IconButton(
+              onPressed: () {},
+              icon: Icon(Icons.alternate_email),
+              color: Colors.yellow)),
       floatingActionButton: FloatingActionButton(
         child: Text('Click'),
         onPressed: () {},
