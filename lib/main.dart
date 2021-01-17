@@ -14,9 +14,22 @@ class Home extends StatelessWidget {
         title: Text('My second application'),
         centerTitle: true,
       ),
-      body: Padding(
-        child: Text('All over the world'),
-        padding: EdgeInsets.all(29.0),
+      body: Column(
+        children: [
+          Text('Row your boat'),
+          FlatButton(
+            onPressed: () {},
+            child: Text('Click it!'),
+            color: Colors.orange,
+          ),
+          Container(
+            color: Colors.cyan,
+            padding: EdgeInsets.all(30.0),
+            child: Text('Encapsulated'),
+          )
+        ],
+        mainAxisAlignment: MainAxisAlignment.center,
+        crossAxisAlignment: CrossAxisAlignment.stretch,
       ),
       floatingActionButton: FloatingActionButton(
         child: Text('Click'),
