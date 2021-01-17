@@ -14,11 +14,10 @@ class Home extends StatelessWidget {
         title: Text('My second application'),
         centerTitle: true,
       ),
-      body: Center(
-          child: IconButton(
-              onPressed: () {},
-              icon: Icon(Icons.alternate_email),
-              color: Colors.yellow)),
+      body: Padding(
+        child: Text('All over the world'),
+        padding: EdgeInsets.all(29.0),
+      ),
       floatingActionButton: FloatingActionButton(
         child: Text('Click'),
         onPressed: () {},
