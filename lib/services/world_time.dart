@@ -7,7 +7,7 @@ class WorldTime {
   String time;
   String flag; // url to asset flag icon
   String url; // endpoint
-  bool isDaytime;
+  bool isDaytime = true;
 
   WorldTime({this.location, this.flag, this.url});
 
@@ -22,9 +22,9 @@ class WorldTime {
       DateTime now = DateTime.parse(dateTime);
       now = now.add(new Duration(hours: int.parse(offset)));
 
-      this.isDaytime = (now.hour > 6 && now.hour < 20) ? true : false;
+      isDaytime = (now.hour > 6 && now.hour < 20) ? true : false;
 
-      this.time = DateFormat.jm().format(now);
+      time = DateFormat.jm().format(now);
     } catch (e) {
       print(e);
       this.time = 'Could not get a time value';

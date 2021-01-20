@@ -12,7 +12,9 @@ class _LoadingState extends State<Loading> {
 
   void setupWorldTime() async {
     WorldTime current = new WorldTime(
-        location: 'Berlin', flag: 'germany.png', url: 'Europe/Berlin');
+        url: 'Africa/Johannesburg',
+        location: 'Cape Town',
+        flag: 'assets/images/sa.png');
     await current.getTime();
     Navigator.pushReplacementNamed(context, '/home', arguments: {
       'location': current.location,

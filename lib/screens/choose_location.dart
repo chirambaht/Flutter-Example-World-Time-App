@@ -40,7 +40,7 @@ class _ChooseLocationState extends State<ChooseLocation> {
         flag: 'assets/images/indonesia.png'),
     WorldTime(
         url: 'Africa/Johannesburg',
-        location: 'Johannesburg',
+        location: 'Cape Town',
         flag: 'assets/images/sa.png'),
     WorldTime(
         url: 'Africa/Johannesburg',

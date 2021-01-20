@@ -59,13 +59,6 @@ class _HomeState extends State<Home> {
               Row(
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: [
-                  Image.asset(
-                    (data['flag']),
-                    height: 15,
-                  ),
-                  SizedBox(
-                    width: 10,
-                  ),
                   Text(
                     '${data['location']}',
                     style: TextStyle(
