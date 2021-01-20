@@ -1,16 +1,17 @@
-# ninja_app
+# World Time App
 
-A new Flutter project.
+My very first Flutter application! I went through this by following the instructions from [The Net Ninja](https://www.youtube.com/channel/UCW5YeuERMmlnqo4oq8vwUpg )'s course on [Flutter Tutorial for Beginners](https://www.youtube.com/playlist?list=PL4cUxeGkcC9jLYyp2Aoh6hcWuxFDX6PBJ).
 
-## Getting Started
+## The application
 
-This project is a starting point for a Flutter application.
+This application will simply tell the time after fetching it from the [World Time API](http://worldtimeapi.org/) and will display it alongside an indication of whether it is daytime in the selected area.
+## What I learnt
+There was a lot to learn in this series ranging from:
 
-A few resources to get you started if this is your first Flutter project:
+ - Dart programming
+ - API calls in Flutter
+ - State management
+ - Core mobile platform development fundamentals
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+The lessons run much deeper than what is stated above, but I can now create basic and simple applications. 
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
